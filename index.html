@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espacio Diferente – Arte y Recreación | Lanús</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Espacio Diferente: espacio interdisciplinario de circo, acrobacia, teatro musical y más en Lanús Este, Buenos Aires. 13 años creando momentos mágicos." />
+  <meta name="keywords"
+    content="circo, acrobacia, teatro musical, arteterapia, mini circo, cumpleaños, eventos, Lanús, Buenos Aires" />
+  <meta name="author" content="Espacio Diferente" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Espacio Diferente – Arte y Recreación" />
+  <meta property="og:description"
+    content="13 años creando momentos mágicos en Lanús. Circo, acrobacia, teatro musical, cumpleaños y más." />
+  <meta property="og:url" content="https://espaciodiferente.com.ar" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Espacio Diferente",
+    "description": "Espacio interdisciplinario de circo, acrobacia, teatro musical y disciplinas afines",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gral. Guido 2879",
+      "addressLocality": "Lanús Este",
+      "addressRegion": "Buenos Aires",
+      "postalCode": "1824",
+      "addressCountry": "AR"
+    },
+    "telephone": "+54-9-11-4975-9820",
+    "email": "espaciodiferente2016@gmail.com",
+    "url": "https://espaciodiferente.com.ar",
+    "sameAs": [
+      "https://www.instagram.com/espacio_diferente/",
+      "https://www.facebook.com/profile.php?id=100063767194171"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:ital,wght@0,400;0,600;0,800;1,400&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+  <!-- =============================================
+     NAVBAR
+============================================= -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <div class="nav-logo">Espacio <span>Diferente</span></div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Nosotros</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="https://wa.me/5491149759820" target="_blank" rel="noopener" class="nav-cta">¡Hablanos!</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sobre" class="mob-link">Nosotros</a>
+    <a href="#actividades" class="mob-link">Actividades</a>
+    <a href="#eventos" class="mob-link">Eventos</a>
+    <a href="#ubicacion" class="mob-link">Ubicación</a>
+    <a href="https://wa.me/5491149759820" target="_blank" rel="noopener" class="mob-link"
+      style="color:var(--rojo-vivo)">¡Hablanos!</a>
+  </div>
+
+  <!-- =============================================
+     HERO
+============================================= -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <!-- confetti dots injected by JS -->
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">13 años creando momentos mágicos</div>
+      <h1 class="hero-title">
+        <span class="line-white">Arte que</span>
+        <span class="line-red">desafía</span>
+        <span class="line-white">tus límites</span>
+      </h1>
+      <p class="hero-sub">
+        Circo, acrobacia, teatro y más en un espacio único donde el cuerpo y la imaginación se liberan.
+      </p>
+      <div class="hero-actions">
+        <a href="#actividades" class="btn-primary">
+          Ver actividades
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="18" height="18"
+            stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+        <a href="https://wa.me/5491149759820" target="_blank" rel="noopener" class="btn-outline">
+          ¿Preguntas?
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- =============================================
+     TICKER
+============================================= -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- =============================================
+     SOBRE NOSOTROS
+============================================= -->
+  <section id="sobre">
+    <div class="container">
+
+      <div class="sobre-text reveal">
+        <div class="section-label">Quiénes somos</div>
+        <h2 class="section-title">Un espacio que te transforma</h2>
+        <p>
+          Somos un multiespacio interdisciplinario con más de 13 años en Lanús Este, Buenos Aires.
+          Nacimos con la convicción de que el arte circense, la acrobacia y la expresión corporal
+          son herramientas poderosas de desarrollo personal y comunitario.
+        </p>
+        <p>
+          Desde pequeños que dan sus primeros saltos hasta adultos que descubren su lado más acrobático,
+          cada persona que pisa Espacio Diferente encuentra su lugar para crecer, jugar y brillar.
+        </p>
+      </div>
+      <div class="sobre-grid">
+
+
+        <div class="sobre-visual reveal">
+          <div class="sobre-badge">
+            <span class="num">13</span>
+            <span class="txt">años</span>
+          </div>
+          <div class="sobre-logo-box">
+            <!-- Logo inline SVG placeholder (matches brand colors) -->
+            <img src="assets/img/espacio_diferente_logo.jpg" alt="Logo Espacio Diferente" />
+          </div>
+        </div>
+
+        <div class="sobre-pills reveal">
+          <span class="pill">🎪 Arte circense</span>
+          <span class="pill">🤸 Acrobacia</span>
+          <span class="pill">🪢 Tela</span>
+          <span class="pill">🎭 Teatro</span>
+          <span class="pill">🎨 Arteterapia</span>
+          <span class="pill">🎂 Cumpleaños</span>
+          <span class="pill">🏛️ Alquiler de sala</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+     ACTIVIDADES
+============================================= -->
+  <section id="actividades">
+    <div class="container">
+      <div class="actividades-header reveal">
+        <div class="section-label">Lo que hacemos</div>
+        <h2 class="section-title">Nuestras Actividades</h2>
+      </div>
+      <div class="cards-grid" id="actividadesGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+     CUMPLEAÑOS & EVENTOS
+============================================= -->
+  <section id="eventos">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Momentos especiales</div>
+        <h2 class="section-title">Cumpleaños & Eventos</h2>
+      </div>
+      <div class="eventos-grid">
+        <div class="evento-card cumple reveal">
+          <div class="evento-icon">🎂</div>
+          <div class="evento-title">Cumpleaños</div>
+          <p class="evento-desc">
+            ¡Hacé que el festejo sea inolvidable! Ofrecemos <strong>Cumple Spa</strong> y
+            <strong>Cumple Circo</strong> para que el cumpleañero y sus amigos vivan una experiencia
+            única llena de magia, movimiento y diversión.
+          </p>
+          <a href="https://wa.me/5491149759820?text=Hola!%20Quiero%20info%20sobre%20cumpleaños" target="_blank"
+            rel="noopener" class="evento-tag">Consultar disponibilidad →</a>
+        </div>
+        <div class="evento-card multiespacio reveal">
+          <div class="evento-icon">🏛️</div>
+          <div class="evento-title">Multiespacio</div>
+          <p class="evento-desc">
+            Nuestras instalaciones están disponibles para alquiler de sala. Ideal para
+            eventos corporativos, talleres, shows, clases particulares y todo tipo de
+            actividades que necesiten un espacio con onda.
+          </p>
+          <a href="https://wa.me/5491149759820?text=Hola!%20Quiero%20info%20sobre%20alquiler%20de%20sala"
+            target="_blank" rel="noopener" class="evento-tag">Consultar disponibilidad →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+     UBICACIÓN
+============================================= -->
+  <section id="ubicacion">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Dónde encontrarnos</div>
+        <h2 class="section-title">Ubicación</h2>
+      </div>
+      <div class="ubicacion-grid">
+        <div class="ubicacion-info reveal">
+          <h3>Vení a vernos</h3>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <div class="info-label">Dirección</div>
+              <div class="info-value">Gral. Guido 2879<br>Lanús Este, Buenos Aires (1824)</div>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📱</div>
+            <div>
+              <div class="info-label">WhatsApp</div>
+              <div class="info-value">
+                <a href="https://wa.me/5491149759820" target="_blank" rel="noopener">+54 9 11 4975-9820</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div>
+              <div class="info-label">Email</div>
+              <div class="info-value">
+                <a href="mailto:espaciodiferente2016@gmail.com">espaciodiferente2016@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📸</div>
+            <div>
+              <div class="info-label">Instagram</div>
+              <div class="info-value">
+                <a href="https://www.instagram.com/espacio_diferente/" target="_blank"
+                  rel="noopener">@espacio_diferente</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5491149759820?text=Hola!%20Quiero%20saber%20más%20sobre%20las%20actividades"
+            target="_blank" rel="noopener" class="btn-primary" style="display:inline-flex; margin-top:1.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.136.558 4.14 1.535 5.879L.057 23.272a.75.75 0 00.921.921l5.395-1.477A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.925 0-3.73-.496-5.3-1.367l-.38-.218-3.936 1.077 1.077-3.935-.218-.38A9.967 9.967 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+            </svg>
+            Cómo llegar por WhatsApp
+          </a>
+        </div>
+
+        <div class="map-wrapper reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7!2d-58.3869!3d-34.6999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zR3JhbC4gR3VpZG8gMjg3OSwgTGFuw7pzIEVzdGU!5e0!3m2!1ses!2sar!4v1699999999999!5m2!1ses!2sar"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Espacio Diferente"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+     CONTACTO
+============================================= -->
+  <section id="contacto">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label" style="justify-content:center; margin-bottom:0.5rem;">
+          <span>Hablemos</span>
+        </div>
+        <h2 class="section-title">¿Listo para empezar?</h2>
+        <p class="contacto-sub">
+          Escribinos y te contamos todo sobre horarios, precios y cómo sumarte a la familia Espacio Diferente.
+        </p>
+      </div>
+
+      <div class="reveal" style="text-align:center;">
+        <a href="https://wa.me/5491149759820?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20actividades%20de%20Espacio%20Diferente"
+          target="_blank" rel="noopener" class="whatsapp-btn-big">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.136.558 4.14 1.535 5.879L.057 23.272a.75.75 0 00.921.921l5.395-1.477A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.925 0-3.73-.496-5.3-1.367l-.38-.218-3.936 1.077 1.077-3.935-.218-.38A9.967 9.967 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+          </svg>
+          Escribinos por WhatsApp
+        </a>
+
+        <div class="divider-or">o encontranos en</div>
+
+        <div class="redes-grid">
+          <a href="https://www.instagram.com/espacio_diferente/" target="_blank" rel="noopener"
+            class="red-social instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+            @espacio_diferente
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100063767194171" target="_blank" rel="noopener"
+            class="red-social facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+            Espacio Diferente
+          </a>
+          <a href="mailto:espaciodiferente2016@gmail.com" class="red-social email">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+     FOOTER
+============================================= -->
+  <footer>
+    <div class="container">
+      <p>© 2025 <span>Espacio Diferente</span> · Arte y Recreación · Lanús Este, Buenos Aires</p>
+      <p style="margin-top:0.4rem;">Gral. Guido 2879 · +54 9 11 4975-9820</p>
+    </div>
+  </footer>
+
+  <!-- =============================================
+     WHATSAPP FLOTANTE
+============================================= -->
+  <a href="https://wa.me/5491149759820?text=Hola!%20Quiero%20m%C3%A1s%20info%20sobre%20Espacio%20Diferente"
+    target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path
+        d="M12 0C5.373 0 0 5.373 0 12c0 2.136.558 4.14 1.535 5.879L.057 23.272a.75.75 0 00.921.921l5.395-1.477A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.925 0-3.73-.496-5.3-1.367l-.38-.218-3.936 1.077 1.077-3.935-.218-.38A9.967 9.967 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+    </svg>
+  </a>
+
+  <!-- =============================================
+     JAVASCRIPT
+============================================= -->
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
